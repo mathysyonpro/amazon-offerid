@@ -1,12 +1,11 @@
 # Amazon ASIN & Offer ID - Extension Chrome
 
-Cette extension Chrome ajoute deux boutons sous le bouton "Acheter cet article" sur Amazon. Ces boutons permettent de copier facilement l'ASIN et l'Offer ID du produit affiché sur la page.
+Cette extension Chrome permet de copier facilement l'ASIN et l'Offer ID du produit affiché sur Amazon via une interface popup.
 
 ## 🛠 Fonctionnalités
 
 - 📋 **Copie rapide** : Un clic sur le bouton copie immédiatement l'ASIN ou l'Offer ID dans le presse-papier.
-- 🎨 **Intégration native** : Les boutons s'intègrent parfaitement sous le bouton "Acheter cet article" avec un style identique aux boutons Amazon.
-- ✅ **Feedback visuel** : Après un clic, le bouton affiche "✔ Copié !" pendant 1,5 seconde pour indiquer la réussite.
+- 🌍 **Compatibilité multi-sites** : Fonctionne sur **Amazon.fr, Amazon.com, Amazon.de et Amazon.co.uk**.
 
 ---
 
@@ -35,9 +34,9 @@ Cette extension Chrome ajoute deux boutons sous le bouton "Acheter cet article" 
 
 ## 🎯 Utilisation
 
-1. Allez sur une **page produit Amazon**.
-2. Descendez jusqu'à la section du bouton **"Acheter cet article"**.
-3. Vous verrez deux nouveaux boutons :
+1. **Allez sur une page produit Amazon**.
+2. **Cliquez sur l'icône de l'extension** (en haut à droite de Chrome).
+3. Une popup s'affichera avec deux boutons :
    - **Copier l'ASIN**
    - **Copier l'Offer ID**
 4. Cliquez sur le bouton souhaité, et il copiera l'information correspondante dans le presse-papier.
@@ -46,8 +45,9 @@ Cette extension Chrome ajoute deux boutons sous le bouton "Acheter cet article" 
 
 ## 📢 Remarque
 
-- Cette extension fonctionne uniquement sur **Amazon.fr, Amazon.com, Amazon.de et Amazon.co.uk** (vous pouvez l’adapter pour d'autres versions d'Amazon en modifiant `manifest.json`).
-- Si vous ne voyez pas les boutons après installation, essayez de **recharger la page**.
+- Cette extension fonctionne sur **Amazon.fr, Amazon.com, Amazon.de et Amazon.co.uk** (vous pouvez l’adapter pour d'autres versions d'Amazon en modifiant `manifest.json`).
+- Si vous ne voyez pas l'icône de l'extension après installation, **vérifiez qu'elle est bien activée dans Chrome**.
+- En cas de problème, essayez de **recharger la page produit** avant de cliquer sur l'extension.
 
 ---
 
@@ -63,4 +63,4 @@ Ce projet est sous licence **MIT** – vous êtes libre de l'utiliser, de le mod
 
 ---
 
-### 🔗 Développé avec ❤️ par Mathys YON
+### 🔗 Made with ❤️ in France.
