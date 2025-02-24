@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon ASIN & Offer ID Copier",
+  "version": "1.0",
+  "description": "Ajoute des boutons pour copier l'ASIN et l'Offer ID sur Amazon.",
+  "permissions": ["clipboardWrite"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.amazon.com/*",
+        "*://www.amazon.fr/*",
+        "*://www.amazon.co.uk/*",
+        "*://www.amazon.de/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
