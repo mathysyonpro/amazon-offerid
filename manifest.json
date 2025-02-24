@@ -1,10 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Amazon ASIN & Offer ID Copier",
-  "version": "1.1",
-  "description": "Copiez rapidement l'ASIN et l'Offer ID du produit affiché sur Amazon",
+  "version": "1.1.1",
+  "description": "Copiez rapidement l'ASIN et l'Offer ID du produit affiché sur Amazon.",
   "permissions": ["activeTab", "clipboardWrite", "scripting"],
-  "host_permissions": ["https://www.amazon.fr/*"],
+  "host_permissions": [
+    "https://www.amazon.fr/*",
+    "https://www.amazon.de/*",
+    "https://www.amazon.co.uk/*",
+    "https://www.amazon.com/*"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
