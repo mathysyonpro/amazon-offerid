@@ -46,7 +46,7 @@ Cette extension Chrome ajoute deux boutons sous le bouton "Acheter cet article" 
 
 ## 📢 Remarque
 
--  Cette extension fonctionne uniquement sur **Amazon.fr, Amazon.com, Amazon.de et Amazon.co.uk** (vous pouvez l’adapter pour d'autres versions d'Amazon en modifiant `manifest.json`).
+- Cette extension fonctionne uniquement sur **Amazon.fr, Amazon.com, Amazon.de et Amazon.co.uk** (vous pouvez l’adapter pour d'autres versions d'Amazon en modifiant `manifest.json`).
 - Si vous ne voyez pas les boutons après installation, essayez de **recharger la page**.
 
 ---

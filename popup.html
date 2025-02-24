@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Copier</title>
+    <style>
+        body {
+            width: 200px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        #copy-asin {
+            background-color: #007bff;
+            color: white;
+        }
+        #copy-offer-id {
+            background-color: #28a745;
+            color: white;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h3>Amazon OfferID</h3>
+    <button id="copy-asin">Copier l'ASIN</button>
+    <button id="copy-offer-id">Copier l'Offer ID</button>
+    <p id="status" style="font-size: 12px; color: gray; margin-top: 10px;"></p>
+    <script src="popup.js"></script>
+</body>
+</html>
